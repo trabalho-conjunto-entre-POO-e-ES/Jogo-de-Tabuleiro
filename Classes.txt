@@ -1,0 +1,31 @@
+Carta:
+      Atributos:
+                poder (nome)
+                nivel (1-5)
+                capacidade (buff ou debuff)
+
+Cartas:
+       Atributo:
+                Arraylist (Carta)
+
+Jogador:
+        Atributo:
+                 nome
+
+Tabuleiro:
+          Atributo:
+                   Casas
+
+
+Casas:
+      Atributo: 
+               Cores(ex.:laranja, vermelho, amarelo)
+               Numero (cada casa tem um numero atribuido)
+
+Regras:
+       Atributo:
+                Vencedor
+
+Dado:
+     Atributo:
+              faces(6)
