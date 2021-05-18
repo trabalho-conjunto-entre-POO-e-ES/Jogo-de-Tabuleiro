@@ -1,9 +1,9 @@
-Carta:
+Carta(extends Cartas):
       Atributos:
                 poder (nome)
                 nivel (1-5)
 
-Carta Especial:
+Carta Especial(extends Carta):
                Atributo:
                         capacidade (buff ou debuff)
 
