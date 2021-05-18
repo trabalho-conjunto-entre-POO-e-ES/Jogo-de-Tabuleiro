@@ -2,7 +2,10 @@ Carta:
       Atributos:
                 poder (nome)
                 nivel (1-5)
-                capacidade (buff ou debuff)
+
+Carta Especial:
+               Atributo:
+                        capacidade (buff ou debuff)
 
 Cartas:
        Atributo:
