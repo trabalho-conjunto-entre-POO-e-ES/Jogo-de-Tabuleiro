@@ -1,1 +1,4 @@
 Quando cartas com nivel igual são usadas pelos jogadores qual será o vencedor?
+cartas terem os mesmos enum que as casas 
+pedra papel tesoura
+primeiro a atacar
