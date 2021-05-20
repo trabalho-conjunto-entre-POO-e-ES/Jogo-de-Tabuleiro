@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Carta {
+public class Carta extends Cartas{
 	// ATRIBUTOS
 ArrayList<String> poder = new ArrayList<String>();
  int nivel[] = new int[6];

@@ -1,7 +1,8 @@
 
 public class Tabuleiro {
 	//ATRIBUTOS
-
+	private Casas casas = new Casas();
+	
 	//ACESSORES
 
 	//CONSTRUTOR - DEFAULT
