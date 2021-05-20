@@ -3,7 +3,7 @@ Regras do Jogo de Tabuleiro
 No inicio do jogo são distribuídas 10 cartas para cada jogador.
 Cada casa tem um número, e cada casa também tem uma cor atribuída (3 cores), jogadores que calharem numa casa com a mesma cor têm de se defrontar.
 As cartas possuem um nível que vai de 1 a 5, o jogador com a carta que tiver maior nível vence o confronto.
-Após o confronto o jogador que que sair vencedor irá receber 1 ponto, quem conseguir obter 10 pontos primeiro vence a partida.
+Após o confronto o jogador que que sair vencedor irá receber 1 ponto, quem conseguir obter 5 pontos primeiro vence a partida.
 
 As cartas irão ter 5 poderes(nomes) diferentes: fogo, agua, terra, vento e erva.
 Estes poderes não afetam nada, mas ajudam na imersão do jogo.
