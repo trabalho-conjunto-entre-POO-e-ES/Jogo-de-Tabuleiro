@@ -1,5 +1,5 @@
 
-public class Casas extends Tabuleiro {
+public class Casas {
 	//ATRIBUTOS
 	
 	//ACESSORES
