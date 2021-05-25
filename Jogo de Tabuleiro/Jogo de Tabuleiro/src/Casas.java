@@ -2,7 +2,6 @@
 public class Casas extends Tabuleiro {
 	//ATRIBUTOS
 	
-	
 	//ACESSORES
 
 	//CONSTRUTOR - DEFAULT

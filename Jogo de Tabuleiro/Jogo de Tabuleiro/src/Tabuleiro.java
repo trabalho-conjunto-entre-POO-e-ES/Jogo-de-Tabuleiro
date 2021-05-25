@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 
 public class Tabuleiro {
 	//ATRIBUTOS
-	private Casas casas = new Casas();
+	ArrayList<Casas> casas = new ArrayList<Casas>();
 	
 	//ACESSORES
 

@@ -32,7 +32,7 @@ Tabuleiro:
                    ArrayList (Casa) Casas
 
 
-Casa:
+Casas(extends Tabuleiro):
       Atributo: 
                Cor(ex.:laranja, vermelho, amarelo)(enum)
                Numero (cada casa tem um numero atribuido)
