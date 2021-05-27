@@ -46,6 +46,7 @@ Jogo:
 	atributos:
 		  tabuleiro
 		  2 jogadores
-        comprotamentos:
+        comportamentos:
 		       regras
                        comprar casas
+                       confronto
