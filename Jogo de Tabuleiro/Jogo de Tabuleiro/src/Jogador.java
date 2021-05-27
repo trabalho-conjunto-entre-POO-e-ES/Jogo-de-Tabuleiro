@@ -1,9 +1,12 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import javax.swing.JOptionPane;
 
 public class Jogador {
 	//ATRIBUTOS
+	private ArrayList<Carta> cartas;
+	
 	private String jogador[] = new String[2];
 
 	//ACESSORES
