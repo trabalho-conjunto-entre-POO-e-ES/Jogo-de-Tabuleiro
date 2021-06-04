@@ -1,4 +1,4 @@
-Carta:
+Carta:(inc)
       Atributos:
                 poder (nome)
                 nivel (1-5)
@@ -6,7 +6,7 @@ Carta:
        comparar o valor da carta com o valor de outra(nos confrontos) 
 		
 
-Carta Especial(extends Carta):
+Carta Especial(extends Carta):(inc)
                Atributo:
 			poder(nome) herdado
 		        nivel(1-5) herdado
@@ -14,35 +14,35 @@ Carta Especial(extends Carta):
 		Comportamentos:
        redefinir/comparar o valor da carta com o valor de outra(nos confrontos) 
 
-Carta Normal(extends carta):
+Carta Normal(extends carta):(inc)
              Atributos:
 		       poder(nome) herdado
 		       nivel(1-5) herdado
              Comportamentos:
        refefinir/comparar o valor da carta com o valor de outra(nos confrontos) 
 
-Jogador:
+Jogador:(completo)
         Atributo:
                  nome
                  cartas
                       Arraylist (Carta)
 
-Tabuleiro:
+Tabuleiro:(inc)
           Atributo:
                    ArrayList (Casa) Casas
 
 
-Casas:
+Casas:(inc)
       Atributo: 
                Cor(ex.:laranja, vermelho, amarelo)(enum)
                Numero (cada casa tem um numero atribuido)
 
 
-Dado:
+Dado:(completo)
      Atributo:
               faces(6)
 
-Jogo:
+Jogo:(inc)
 	atributos:
 		  tabuleiro
 		  2 jogadores
