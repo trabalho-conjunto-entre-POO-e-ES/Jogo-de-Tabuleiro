@@ -36,9 +36,7 @@ public class Carta {
 	// CONSTRUTOR - COPIA
 
 	// COMPORTAMENTOS
-	public int comparar() {
-		
-	}
+	
 	
 	// COMPLEMENTARES
 	@Override
