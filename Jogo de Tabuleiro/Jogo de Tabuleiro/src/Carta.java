@@ -1,22 +1,22 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Carta {
+public abstract class Carta {
 	// ATRIBUTOS
-	ArrayList<String> poder = new ArrayList<String>();
-	int nivel[] = new int[6];
+	String poder;
+	int nivel;
 	
 	// ACESSORES
-	public ArrayList<String> getPoder() {
+	public String getPoder() {
 		return poder;
 	}
-	public void setPoder(ArrayList<String> poder) {
+	public void setPoder(String poder) {
 		this.poder = poder;
 	}
-	public int[] getNivel() {
+	public int getNivel() {
 		return nivel;
 	}
-	public void setNivel(int[] nivel) {
+	public void setNivel(int nivel) {
 		this.nivel = nivel;
 	}
 
@@ -26,7 +26,7 @@ public class Carta {
 	}
 	
 	// CONTRUTOR - COM PARAMETROS
-	public Carta(ArrayList<String> poder, int[] nivel) {
+	public Carta(String poder, int nivel) {
 		super();
 		this.poder = poder;
 		this.nivel = nivel;
@@ -36,13 +36,15 @@ public class Carta {
 	// CONSTRUTOR - COPIA
 
 	// COMPORTAMENTOS
-	public int comparar() {
+	abstract public int comparar(Carta carta);
+
 		
-	}
+		
+	
 	
 	// COMPLEMENTARES
 	@Override
 	public String toString() {
-		return "Carta [poder=" + poder + ", nivel=" + Arrays.toString(nivel) + "]";
+		return "Carta [poder=" + poder + ", nivel=" + nivel + "]";
 	}
 }

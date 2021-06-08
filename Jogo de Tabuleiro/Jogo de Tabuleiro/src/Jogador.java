@@ -7,7 +7,7 @@ public class Jogador {
 	//ATRIBUTOS
 	private ArrayList<Carta> cartas;
 	
-	private String jogador[] = new String[2];
+	private String nome;
 
 	//ACESSORES
 	public String[] getJogador() {

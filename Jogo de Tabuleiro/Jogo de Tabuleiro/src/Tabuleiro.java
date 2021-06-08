@@ -2,15 +2,15 @@ import java.util.ArrayList;
 
 public class Tabuleiro {
 	//ATRIBUTOS
-	ArrayList<Casas> casas = new ArrayList<Casas>();
+	ArrayList<Casa> casas = new ArrayList<Casa>();
 
 	
 	//ACESSORES
-	public ArrayList<Casas> getCasas() {
+	public ArrayList<Casa> getCasas() {
 		return casas;
 	}
 
-	public void setCasas(ArrayList<Casas> casas) {
+	public void setCasas(ArrayList<Casa> casas) {
 		this.casas = casas;
 	}
 
@@ -21,7 +21,7 @@ public class Tabuleiro {
 
 
 	//CONTRUTOR - COM PARAMETROS
-	public Tabuleiro(ArrayList<Casas> casas) {
+	public Tabuleiro(ArrayList<Casa> casas) {
 		super();
 		this.casas = casas;
 	}
