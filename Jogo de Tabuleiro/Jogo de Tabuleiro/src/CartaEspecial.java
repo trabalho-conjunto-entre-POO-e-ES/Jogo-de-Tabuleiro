@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CartaEspecial extends Carta {
 	//ATRIBUTOS
-	ArrayList<String> capacidade = new ArrayList<String>();
+	private ArrayList<String> capacidade = new ArrayList<String>();
 	
 	//ACESSORES
 	public ArrayList<String> getCapacidade() {

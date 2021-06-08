@@ -3,8 +3,8 @@ import java.util.Arrays;
 
 public class Carta {
 	// ATRIBUTOS
-	ArrayList<String> poder = new ArrayList<String>();
-	int nivel[] = new int[6];
+	private ArrayList<String> poder = new ArrayList<String>();
+	private int nivel[] = new int[6];
 	
 	// ACESSORES
 	public ArrayList<String> getPoder() {
