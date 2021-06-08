@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Tabuleiro {
 	//ATRIBUTOS
-	ArrayList<Casa> casas = new ArrayList<Casa>();
+	private ArrayList<Casa> casas = new ArrayList<Casa>();
 
 	
 	//ACESSORES

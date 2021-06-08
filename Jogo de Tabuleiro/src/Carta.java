@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
-public abstract class Carta {
+public class Carta {
 	// ATRIBUTOS
-	String poder;
-	int nivel;
+
+	private String poder;
+	private int nivel;
 	
 	// ACESSORES
 	public String getPoder() {
@@ -36,10 +34,9 @@ public abstract class Carta {
 	// CONSTRUTOR - COPIA
 
 	// COMPORTAMENTOS
-	abstract public int comparar(Carta carta);
-
-		
-		
+	public int comparar(Carta carta) {
+		return 0;
+	}
 	
 	
 	// COMPLEMENTARES

@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class CartaNormal extends Carta {
 
 	// ATRIBUTOS
@@ -23,10 +21,10 @@ public class CartaNormal extends Carta {
 
 	// COMPORTAMENTOS
 	public int comparar(Carta carta) {
-		if(this.nivel < carta.nivel) {
+		if(this.getNivel() < carta.getNivel()) {
 		return -1;
 		}else {
-			if(this.nivel == carta.nivel){
+			if(this.getNivel() == carta.getNivel()){
 				return 0;
 			}else {
 			return 1;

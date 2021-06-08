@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Casa {
 	public enum Cor{
 		
@@ -34,11 +32,6 @@ public class Casa {
 		this.cor = cor;
 		this.numero = numero;
 	}
-
-
-
-
-
 
 
 
