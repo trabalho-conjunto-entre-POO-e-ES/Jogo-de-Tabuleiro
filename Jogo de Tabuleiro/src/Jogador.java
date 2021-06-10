@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Jogador {
 	// ATRIBUTOS
-	//private ArrayList<Carta> cartas;
+	private ArrayList<Carta> cartas;
 
 	private String nome;
 
