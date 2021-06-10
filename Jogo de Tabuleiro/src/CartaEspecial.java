@@ -1,8 +1,10 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 public class CartaEspecial extends Carta {
 	// ATRIBUTOS
-	private ArrayList<String> capacidade = new ArrayList<String>();
+	private String capacidade = new String[1];
+	String capacidade[0] = "buff";
 
 	// ACESSORES
 	public ArrayList<String> getCapacidade() {
@@ -27,10 +29,35 @@ public class CartaEspecial extends Carta {
 	// CONSTRUTOR - COPIA
 
 	// COMPORTAMENTOS
-	@Override
-	public int comparar(Carta carta) {
-		// TODO Auto-generated method stub
+	public int buffDebuff (Carta carta) {
+		Random rand = new Random();
+		int rand_int = rand.nextInt(1);
+		if(rand_int == 0) {
+			
+		}
+		
+		
+		
+		
+		
+		
+		
 		return 0;
+	}
+	
+	
+	
+	
+	public int comparar(Carta carta) {
+		if(this.getNivel() < carta.getNivel()) {
+		return -1;
+		}else {
+			if(this.getNivel() == carta.getNivel()){
+				return 0;
+			}else {
+			return 1;
+			}
+		}
 	}
 
 	// COMPLEMENTARES

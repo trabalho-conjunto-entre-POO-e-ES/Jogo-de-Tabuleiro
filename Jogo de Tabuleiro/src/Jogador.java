@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Jogador {
 	// ATRIBUTOS
-	private ArrayList<Carta> cartas;
+	//private ArrayList<Carta> cartas;
 
 	private String nome;
 
@@ -33,9 +33,17 @@ public class Jogador {
 
 	// COMPORTAMENTOS
 	public void nomenome() {
-		for (int i = 0; i <= nome.length(); i++) {
 			JOptionPane.showInputDialog("Nome do Jogador" + nome);
-		}
+	}
+	
+	public ArrayList<Carta> construirCarta(Carta carta){
+		//ArrayList<Carta> carta = new ArrayList<Carta>();
+		for(int i=0;i<10;i++) {
+			carta.randNivel(carta);
+			carta.
+			}
+		 return cartas;
+		
 	}
 
 	// COMPLEMENTARES

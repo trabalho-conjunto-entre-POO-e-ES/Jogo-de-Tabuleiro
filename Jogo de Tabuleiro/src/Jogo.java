@@ -22,4 +22,15 @@ public class Jogo {
 	public Jogo() {
 		tabuleiro = new Tabuleiro(construirCasas());
 	}
+	
+	
+	private void construirJogador1() {
+		jogador1.nomenome();
+	}
+	private void construirJogador2() {
+		jogador2.nomenome();
+	}
+	
+	
+	
 }
