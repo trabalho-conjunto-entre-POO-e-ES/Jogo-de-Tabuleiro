@@ -1,19 +1,40 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class DadoTest {
 
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
 	@Test
-	void testLançar() {
-		Dado dado = new Dado(); 
+	void testDado() {
+
+		Dado gabriel = new Dado(6);
+		assertEquals(6, gabriel.getLados(), "Constrói um dado com 6 lados");
+
+		assertThrows(IllegalArgumentException.class, () -> {
+			new Dado(8);
+
+		}, "Não pode construir um Dado com lados diferentes de 6");
+	}
+
+	void testLancar() {
+		int lados = 6;
+
+		Dado gabriel = new Dado(lados);
+		assertEquals(gabriel.getLados(), lados);
 		
-		for (int i = 0 ; i<6; i++) {
-			dado.lancar();
-			System.out.println(dado.equals(dado));
-		}
+	}
+
+	void testLancamento() {
+		int lados = 6;
+
+		Dado gabriel = new Dado(lados);
+		assertEquals(gabriel.getLados(), lados);
 		
-		fail("Not yet implemented");
 	}
 
 }

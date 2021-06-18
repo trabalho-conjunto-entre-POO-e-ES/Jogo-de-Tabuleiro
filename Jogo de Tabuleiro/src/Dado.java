@@ -20,11 +20,14 @@ public class Dado {
 
 	// CONSTRUTOR - DEFAULT
 	public Dado() {
-
+		
 	}
 
 	// CONTRUTOR - COM PARAMETROS
 	public Dado(int sides) {
+		if( sides != 6 )
+			throw new IllegalArgumentException("Dado inválido");
+		
 		vezesLancado = 0;
 		lados = sides;
 		random = new Random();

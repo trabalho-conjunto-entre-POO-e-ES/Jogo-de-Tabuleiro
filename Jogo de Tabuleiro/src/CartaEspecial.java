@@ -1,17 +1,20 @@
-import java.util.ArrayList;
+
 import java.util.Random;
 
 public class CartaEspecial extends Carta {
+
+
 	// ATRIBUTOS
-	private String capacidade = new String[1];
-	String capacidade[0] = "buff";
+	private String capacidade = "buff";
 
 	// ACESSORES
-	public ArrayList<String> getCapacidade() {
+		public String getCapacidade() {
 		return capacidade;
 	}
 
-	public void setCapacidade(ArrayList<String> capacidade) {
+
+
+	public void setCapacidade(String capacidade) {
 		this.capacidade = capacidade;
 	}
 	// CONSTRUTOR - DEFAULT
@@ -19,12 +22,14 @@ public class CartaEspecial extends Carta {
 	public CartaEspecial() {
 
 	}
-	// CONTRUTOR - COM PARAMETROS
+	
 
-	public CartaEspecial(ArrayList<String> capacidade) {
+	// CONTRUTOR - COM PARAMETROS
+	public CartaEspecial(String capacidade) {
 		super();
 		this.capacidade = capacidade;
 	}
+	
 
 	// CONSTRUTOR - COPIA
 

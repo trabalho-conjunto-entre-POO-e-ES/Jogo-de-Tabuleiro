@@ -40,7 +40,6 @@ public class Jogador {
 		//ArrayList<Carta> carta = new ArrayList<Carta>();
 		for(int i=0;i<10;i++) {
 			carta.randNivel(carta);
-			carta.
 			}
 		 return cartas;
 		
