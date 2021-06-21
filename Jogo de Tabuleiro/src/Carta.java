@@ -1,8 +1,18 @@
 import java.util.Random;
-
+/**
+ * A classe Carta contem operações para criar um valor random para o nivel e o poder da carta.
+ * @author jopes
+ * @author gabriel
+ */
 public class Carta {
 	// ATRIBUTOS
-
+	/**
+	 * Os atributos utilizados na construção da classe dado foram:
+	 * <ul>
+	 *   <li>poder</li>
+	 *   <li>nivel</li>
+	 * <ul>
+	 */
 	private String poder[] = new String[] {"fogo", "agua", "terra","vento"};
 	private int nivel;
 	
@@ -36,6 +46,11 @@ public class Carta {
 	// CONSTRUTOR - COPIA
 
 	// COMPORTAMENTOS
+	/**
+	 * Este método faz com que a o nivel da carta seja random.
+	 * @param carta
+	 * @return retorna um nivel random de 1 a 5
+	 */
 	public int randNivel(Carta carta) {
 		Random rand = new Random();
 		int minimo = 1;
@@ -43,6 +58,11 @@ public class Carta {
 		int rand_nivel = rand.nextInt(maximo-minimo) + minimo;
 		return rand_nivel;
 	}
+	/**
+	 * Escolhe entre as opções existentes um poder random.
+	 * @param carta
+	 * @return retorna um poder ao calhas.
+	 */
 	public String randPoder(Carta carta) {
 		Random rand = new Random();
 		int rand_poder = rand.nextInt(4);
@@ -68,6 +88,10 @@ public class Carta {
 	
 	
 	// COMPLEMENTARES
+	/**
+	 * Este comportamento complementar devolve o nivel e o poder.
+	 * @return retorna o nivel e o poder.
+	 */
 	@Override
 	public String toString() {
 		return "Carta [poder=" + poder + ", nivel=" + nivel + "]";
